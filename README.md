@@ -34,12 +34,12 @@ Because every computer's hardware ID is different, you must configure the script
    1. Open audio-toggle.sh in a text editor.
 
    2. Run the following command in your terminal to find your Card Name:
-	```bash
-	pactl list cards | grep "Name:"
-	```
-   3. Update the CARD variable in the script with your card name.		
+   ```bash
+   pactl list cards | grep "Name:"
+   ```
+   4. Update the CARD variable in the script with your card name.		
 	
-   4. Update PROFILE_SPEAKER and PROFILE_HEADPHONES variables with your specific profile names (found via pactl list cards).
+   5. Update PROFILE_SPEAKER and PROFILE_HEADPHONES variables with your specific profile names (found via pactl list cards).
 
 ## 💿 Usage
 
